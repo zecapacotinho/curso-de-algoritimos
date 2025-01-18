@@ -11,20 +11,20 @@ g1, g2, s: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
    escreval("FLAMENGO X VASCO")
-   escreval("quantos gols flamengo fez")
+   escreval("Quantos gols flamengo fez")
    leia(g1)
-   escreval("quantos gols vasco fez")
+   escreval("Quantos gols vasco fez")
    leia(g2)
    s <- g1 - g2
    escreval("Diferença: ", s)
    se (s >= 1) e (s < 4) entao
-      escreval("status: partida normal")
+      escreval("Status: Partida Normal")
    senao
         se (s = 0) entao
-           escreval("status: empate")
+           escreval("Status: Empate")
         senao
              se (s >= 4) entao
-                escreval("status: goleada")
+                escreval("Status: Goleada")
              fimse
         fimse
    fimse
