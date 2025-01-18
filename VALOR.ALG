@@ -7,12 +7,18 @@ Algoritmo "valor"
 Var
 // Seção de Declarações das variáveis 
 valor, s: real
+c, q: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("creuza que ir para os estados unidos mas não sabe quanto dolares vai comprar. ajude-a a calcular quantos ela vai ter que comprar.")
-   escreval("coloque aqui quanto creuza tem em real: ")
-   leia(valor)
-   s <- valor * 6.04
-   escreva("o tatal que creuza vai comprar em dolares é: ", s)
+   c <- 1
+   escreval("quantas vezes você quer convernter? ")
+   leia(q)
+   enquanto (c <= q) faca
+            escreval("coloque aqui o valor em real: ")
+            leia(valor)
+            s <- valor * 6.04
+            escreval("o valor convertido e US$: ", s)
+            c <- c + 1
+   fimenquanto
 Fimalgoritmo
