@@ -9,12 +9,14 @@ Var
    x,y: inteiro
 
 
-procedimento soma(var a,b: inteiro)
+procedimento soma( a,b: inteiro)
 inicio
 
   a <- a + 1
   b <- b + 2
-  escreva("A soma vale ", a + b)
+  escreval("o valor de a é ", a)
+  escreval("o valor de b é ", b)
+  escreval("A soma vale de a + b = ", a + b)
 
 fimprocedimento
 Inicio
@@ -23,7 +25,8 @@ Inicio
    x <- 5
    y <- 8
    soma(x, y)
-   escreva(x,y)
+   escreval("o valor de x é ", x)
+   escreval("o valor de y é ", y)
 
 
 Fimalgoritmo
